@@ -30,26 +30,52 @@ body {
   float: left;
 }
 
+
 .clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 
+
+/* box */
+
 .box{
-  background-color: yellow;
-  width: calc(100%/3 - 40px);
-  margin: 30px 20px;
+  background-color: #09080E;
+  width: calc(100%/3 - 30px);
+  margin: 25px 15px;
   text-align: left;
-  height: 75px;
 }
 
 .box img {
   width: 75px;
-  height: 75px;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
-.box .box-text{
-  padding: 10px;
+.box-text{
+  margin-top: 5px;
 }
+
+.box-text .name,
+.box-text .job{
+  color: white;
+}
+
+.box-text .job,
+.box-text .email{
+  font-size: .8rem;
+}
+
+.box .box-text>.name{
+ font-size: 1rem;
+ margin-bottom: 2px;
+}
+
+.box .box-text>.job{
+  margin-bottom: 2px;
+}
+
+.box .box-text>.email{
+  color: #62C3D5;
+}
+
