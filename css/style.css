@@ -60,7 +60,7 @@ body {
 }
 
 .box-text{
-  margin-top: 5px;
+  margin: 8px;
 }
 
 .box-text .name,
@@ -75,18 +75,11 @@ body {
 
 .box .box-text>.name{
  font-size: 1rem;
- margin-bottom: 2px;
 }
 
-.box .box-text>.job{
-  margin-bottom: 2px;
-}
 
 .box .box-text>.email{
   color: #62C3D5;
-}
-
-.email{
   display: block;
 }
 
