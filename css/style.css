@@ -25,12 +25,31 @@ body {
 .text p{
   font-size: .9rem;
 }
+
 .float-left{
   float: left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .box{
   background-color: yellow;
   width: calc(100%/3 - 40px);
   margin: 30px 20px;
+  text-align: left;
+  height: 75px;
+}
+
+.box img {
+  width: 75px;
+  height: 75px;
+  margin-right: 5px;
+}
+
+.box .box-text{
+  padding: 10px;
 }
