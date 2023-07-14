@@ -16,12 +16,12 @@ body {
 
 /* float-properties */
 
-.float-left{
+.float-left {
   float: left;
 }
 
 
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -37,10 +37,10 @@ body {
   color: #E53170;
   font-size: 1.8rem;
   font-weight: 900;
-  padding-bottom: 45px;
+  padding-bottom: 40px;
 }
 
-.text p{
+.text p {
   font-size: .9rem;
 }
 
@@ -48,10 +48,11 @@ body {
 
 /* box */
 
-.box{
+.box {
   background-color: #09080E;
   width: calc(100%/3 - 30px);
   margin: 30px 15px 20px;
+  min-width: 200px;
 }
 
 .box img {
@@ -59,26 +60,26 @@ body {
   margin-right: 8px;
 }
 
-.box-text{
+.box-text {
   margin: 8px;
 }
 
 .box-text .name,
-.box-text .job{
+.box-text .job {
   color: white;
 }
 
 .box-text .job,
-.box-text .email{
+.box-text .email {
   font-size: .8rem;
 }
 
-.box .box-text>.name{
+.box .box-text>.name {
  font-size: 1rem;
 }
 
 
-.box .box-text>.email{
+.box .box-text>.email {
   color: #62C3D5;
   display: block;
 }
